@@ -1,0 +1,59 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# PyTorch model weights
+*.pth
+*.pt
+*.ckpt
+
+# Data directories (keep out of version control)
+data/
+datasets/
+raw_data/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and outputs
+logs/
+*.log
+outputs/
+runs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
